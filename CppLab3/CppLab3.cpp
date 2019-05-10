@@ -41,11 +41,12 @@ int main()
 //high difficulty level
 int main()
 {
-	char c[] /*= "QWERTYUIOP"*/;
-	char s[] /*= "PIQEOUWRYT"*/;
+	int wordMaxLength = 10;
+	char c[wordMaxLength] /*= "QWERTYUIOP"*/;
+	char s[wordMaxLength] /*= "PIQEOUWRYT"*/;
 	
-	cin.getline(c, 10);
-	cin.getline(s, 10);
+	cin.getline(c, wordMaxLength);
+	cin.getline(s, wordMaxLength);
 
 	if (sizeof(c) != sizeof(s))
 	{
