@@ -41,7 +41,7 @@ int main()
 //high difficulty level
 int main()
 {
-	int wordMaxLength = 10;
+	const int wordMaxLength = 10;
 	char c[wordMaxLength] /*= "QWERTYUIOP"*/;
 	char s[wordMaxLength] /*= "PIQEOUWRYT"*/;
 	
