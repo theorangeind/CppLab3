@@ -41,8 +41,11 @@ int main()
 //high difficulty level
 int main()
 {
-	char c[] = "QWERTYUIOP";
-	char s[] = "PIQEOUWRYT";
+	char c[] /*= "QWERTYUIOP"*/;
+	char s[] /*= "PIQEOUWRYT"*/;
+	
+	cin.getline(c, 10);
+	cin.getline(s, 10);
 
 	if (sizeof(c) != sizeof(s))
 	{
